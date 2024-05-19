@@ -1,0 +1,316 @@
+
+@media (min-width: 1024px) {
+    
+body, html {
+    margin: 0;
+    background: darkgray;
+    padding: 0;
+    border: 0;
+}
+
+
+    .feel{
+        margin-left: 170px;
+    }
+    .mid{
+        margin-right: 500px; margin-left: 100px; margin-top: 100px
+    }
+
+.second_grey_text{
+    margin-top: 500px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(172, 166, 154);
+
+}
+.first_img{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+.header{
+
+
+    display: inline-flex;
+    background-color:rgb(231, 240, 102);
+}
+
+.heder_text{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 66px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.main{
+    display: inline-flex;
+
+    background-color:rgb(231, 240, 102);
+    margin: 0;
+}
+
+.bi-grid-3x3-gap-fill{
+    display: flex;
+
+    margin-top: 15px;
+    margin-right: 189px;
+
+}
+
+.card{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+
+}
+
+.heder_info{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.texts{
+    background-color:rgb(231, 240, 102);
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.second_block{
+    background-color: rgb(156, 133, 84);
+    display: inline-flex;
+}
+
+.second_img{
+    width: 100%;
+    height:700px;
+
+}
+
+.trind{
+    background-color: rgb(80, 75, 77);
+    display: inline-flex;
+}
+
+.grey_text{
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    color: rgb(172, 166, 154);
+}
+
+
+
+.fotos{
+    display: inline-flex;
+    background: darkgray;
+}
+
+
+.fores{
+    background-color: rgb(176, 72, 54);
+    display: inline-flex;
+}
+
+.imeg{
+    width: 100%;
+    height: 100%;
+}
+.teg{
+    position: absolute;
+    color: black;
+    margin-top: 1000px;
+    margin-left: 100px ;
+}
+
+
+.seg_lag{
+    position: absolute;
+    color: black;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+
+.ter{
+    display: flex;
+
+}
+
+.size{
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.otss{
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.left{
+    margin-left: 100px;
+}
+
+.div_info{
+    position: absolute;
+    background: black;
+    margin-left: 800px;
+    margin-top: 500px;
+}
+
+.grey{
+    color: darkgray;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.dark{
+    .grey{
+        color: black;
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+}
+
+.futer{
+    background: black;
+}
+
+input{
+    outline: none;
+}
+
+}
+
+
+
+@media (max-device-width: 420px) {
+    .main {
+        width: 100%;
+        background: yellow;
+    }
+
+    .div_info {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .first_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .texts {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .heder_text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .heder_info {
+        margin-top: 10px;
+    }
+
+    .card {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .bi-grid-3x3-gap-fill {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .second_block {
+        flex-direction: column;
+    }
+
+    .mid {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .second_grey_text {
+        font-size: 14px;
+    }
+
+    .second_img {
+        margin: 20px auto;
+        display: block;
+        width: 100%;
+    }
+
+    .fotos{
+        display: inline-flex;
+    }
+    .teg{
+        position: absolute;
+        margin-left: 20px;
+
+    }
+    .ter{
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
