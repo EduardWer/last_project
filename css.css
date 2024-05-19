@@ -8,7 +8,9 @@ body, html {
     border: 0;
 }
 
-
+.teris{
+    margin-right:170px;
+}
     .feel{
         margin-left: 170px;
     }
@@ -125,6 +127,11 @@ body, html {
     display: inline-flex;
 }
 
+
+.imeges{
+    width: 100%;
+    height: 100%;
+}
 .imeg{
     width: 100%;
     height: 100%;
@@ -195,94 +202,142 @@ body, html {
     background: black;
 }
 
+.margin{
+    margin-left: 170px
+}
+
 input{
     outline: none;
 }
 
+.thet{
+    margin-right: 500px;
+    margin-left: 100px;
+    margin-top: 100px
+}
+
 }
 
 
-
 @media (max-device-width: 420px) {
-    .main {
-        width: 100%;
-        background: yellow;
+    body{
+        background: black;
+        margin: 0;
     }
-
-    .div_info {
-        padding: 10px;
-        text-align: center;
+   .main{
+        display: inline-flex;
+       background: yellow;
+   }
+    .first_img{
+       width: 800px;
     }
-
-    .first_img {
-        width: 100%;
-        height: auto;
-    }
-
-    .texts {
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-
-    .heder_text {
-        font-size: 1em;
-        text-align: center;
-    }
-
-    .heder_info {
-        margin-top: 10px;
-    }
-
-    .card {
+    .header{
+        display: inline-flex;
         position: absolute;
-        top: 10px;
-        right: 10px;
+
+        background: black;
+        color: grey;
+
+    }
+    .div_info{
+        margin-left: 20px;
+        margin-right: 450px;
+        margin-top: 150px;
     }
 
-    .bi-grid-3x3-gap-fill {
-        position: absolute;
-        top: 10px;
-        left: 10px;
+    .grey_text{
+        color: grey;
+    }
+    .grey{
+        color: grey;
     }
 
-    .second_block {
-        flex-direction: column;
-    }
+    .second_block{
+        display: inline-flex;
+        background-color: rgb(156, 133, 84);
 
-    .mid {
-        padding: 20px;
-        text-align: center;
     }
+    .second_img{
+        width: 800px;
 
-    .second_grey_text {
-        font-size: 14px;
     }
-
-    .second_img {
-        margin: 20px auto;
-        display: block;
-        width: 100%;
+    .mid{
+        margin-right: 90px;
     }
 
     .fotos{
         display: inline-flex;
+        background: darkgray;
+    }
+    .imeg{
+        width: 725px;
     }
     .teg{
         position: absolute;
-        margin-left: 20px;
+        color: black;
+        margin-top: 800px;
+        margin-left: 100px ;
 
     }
     .ter{
         display: flex;
     }
+    .otss{
+        margin: 30px;
+    }
 
+    .infinit{
+        display: flex;
+    }
+    .seg_lag{
+      position: absolute;
+        color: black;
+        margin: 40px;
+    }
+    .imeges{
+       width: auto;
+        height: 1035px;
+    }
+
+
+    .trind{
+        background-color: rgb(80, 75, 77);
+        display: inline-flex;
+    }
+
+
+    .teris{
+        margin-left: 370px;
+    }
+
+    .fores{
+        background-color: rgb(176, 72, 54);
+        display: inline-flex;
+    }
+
+    .mid{
+        margin: 20px;
+    }
+
+
+    .thet{
+        margin-left: 160px;
+    }
+
+    .margin{
+        margin-left: 330px;
+    }
+
+    .futer{
+        background: black;
+
+
+
+    }
+
+    input{
+        outline: none;
+    }
 }
 
 
